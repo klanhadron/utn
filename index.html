@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="shortcut icon" href="../../IMG/like.png">
+        <title>  Emprendimiento </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="./stylo.css">
+        <script src="./js/validate.js"></script>
+    </head>
+    <body>
+        <header>
+            <h2><a href="#">Website Logo</a></h2>
+            <nav>
+                <li><a href="#"><i class="fa-solid fa-house fa-fade"> Home</i></a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#testimonials">Testimonials</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </nav>
+          </header>
+          
+          <section class="hero">
+            <div class="background-image" style="background-image: url('img/fondo.jpg');"></div>
+            <h1 class="animate__animated animate__swing">Nuevo efecto....</h1>
+           
+              <h3>PAQUETERÍA LOGÍSTICA</h3>
+              
+          </section>
+          
+          
+          <section class="our-work">
+            <h3 class="title">PAQUETERÍA LOGÍSTICA</h3>
+              <p>PAQUETERÍA LOGÍSTICA es una empresa de capitales nacionales dedicada a brindar soluciones logísticas en todo el territorio Argentino.
+
+                Una empresa familiar, liderada por sus dueños.
+                
+                Con tan solo 5 años en el mercado, una empresa joven pero sólida a su vez.
+                
+                Comprometida y decidida a consolidarse cada vez más a nivel nacional y ampliar su llegada a destinos internacionales.</p>
+              <hr>
+              <ul class="grid">
+                  <li class="small" style="background-image: url('img/1.jpg');"></li>
+                  <li class="large" style="background-image: url('img/2.jpg');"></li>
+                  <li class="large" style="background-image: url('img/3.jpg');"></li>
+                  <li class="small" style="background-image: url('img/4.jpg');"></li>
+              </div>
+          </section>
+              
+          <section class="features">
+              <h3 class="title" id="services">Presentacion de la empresa</h3>
+              <p>Somos una empresa dedicada a la organización de recursos y métodos para una logística eficiente. De capitales nacionales, liderada por sus propios dueños, acompañados por un equipo de profesionales altamente capacitados.
+
+                Caracterizada por valorar la labor que los clientes realizan a diario al fabricar sus productos, brindamos soluciones logísticas en todo el territorio argentino.
+                
+                En PAQUETERÍA LOGÍSTICA, estamos en constante crecimiento, trabajamos a diario interconectando todos los canales comerciales, lo cual nos permite afianzar la comunicación con nuestros clientes, generando una relación a largo plazo.</p>
+              <hr>
+              <ul class="grid">
+                  <li>
+                      <i class="fa fa-camera-retro"></i>
+                      <h4>Nuestra Historia</h4>
+                      <p>PAQUETERÍA LOGÍSTICA inicia su trayectoria en el 2017. Una empresa familiar conformada y liderada por sus propios dueños, de capitales argentinos, siendo una pyme, ha apostado al país y se ha situado en el mundo del transporte. Con el paso del tiempo, logró establecerse como una empresa sólida en conocimientos y con experiencia en el sector. Con su flota de vanguardia tiene presencia en todo el territorio nacional y de esta manera se destaca brindando soluciones en materia de logística y distribución.</p>
+                  </li>
+                  <li>
+                      <i class="fa fa-cubes"></i>
+                      <h4>Mision</h4>
+                      <p>Superar las expectativas de nuestros clientes en todos los niveles, generando y buscando una relación a largo plazo, con un compromiso continuo y una excelente calidad humana que nos permita lograr un elevado nivel de eficiencia y fiabilidad sin olvidar nunca que nuestra razón de ser es generar valor.</p>
+                  </li>
+                  <li>
+                      <i class="fa fa-newspaper-o"></i>
+                      <h4>Vision</h4>
+                      <p>Convertirnos en un referente nacional que brinde soluciones de transporte global en consultoría, distribución, almacenamiento y despacho con alcance internacional.</p>
+                  </li>
+              </div>
+          </section>
+          
+          <section class="reviews" id="testimonials">
+              <h3 class="title">Presentacion personal</h3>
+              <p class="quote">"Hola Soy Jose Luis Fernandez tengo 40 años y me dedico a la programacion en el diseño de paginas web vivo en Misiones y estoy transitando el curso de ARGENTINA PROGRAMA 4.0"</p>
+              <p class="author">— Jose Luis Fernandez</p>
+            
+          </section>
+          
+          <section class="contact" id="contact">
+             
+              <div id="resultadoValidacion"></div>
+              <div class="form">
+               
+                <form id="registrarDatos" name="registrarDatos" action="/index.html" method="post"  >
+                  <div class="form__input">
+                   
+                    <div class="col-sm-5">
+                      <input id="nombre" class="form-control" type="text" placeholder="Nombre" name="nombre">
+                    </div>
+                    <div class="col-sm-5 messages">
+                    </div>
+                  </div>
+                    <div class="form__input">
+                      
+                        <input type="email" placeholder="Correo" id="correo" name="correo">
+                        <span class="bar"></span>
+        
+                    </div>
+                    <div class="form__input">
+                     
+                        <input type="text" placeholder="Asunto" id="asunto" name="asunto">
+                        <span class="bar"></span>
+                        <div class="messages"></div>
+        
+                    </div><br>
+                    <div class="form__input">
+                    
+                        <textarea type="text"  id="mensaje" name="mensaje" cols="20" rows="5"></textarea>
+                        <span class="bar"></span>
+                        <div class="messages"></div>
+        
+                    </div>
+                    <button type="submit" class="form-group">Enviar</button>
+                    
+                    </span>
+                    
+                </form>
+               </div>
+          </section>
+          <section>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3543.011592231112!2d-55.91035842571134!3d-27.375353376374424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9457be47525e5351%3A0xe16f5c601a401ec3!2sGdor.%20Barreiro%203037%2C%20N3301LEL%20Posadas%2C%20Misiones!5e0!3m2!1ses!2sar!4v1681422770379!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+          </section>
+          <footer>
+              <ul>
+                  <li><a href="#"><i class="fa-brands fa-square-twitter fa-beat"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-facebook fa-beat-fade"></i></a></li>
+                  <li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
+                  <li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-github fa-spin-pulse"></i></a></li>
+            </ul>
+            <p>&copy;Abril 2023<br>Paqueteria Logistica </p>
+              </footer>
+              <script>
+               window.addEventListener('load',()=>{
+                let validadorFormulario = new FormValidator('registrarDatos', [{
+                  name: 'nombre',
+                  display: 'Nombre',
+                  rules: 'required|min_length[10]'
+               },
+               {
+                name: 'correo',
+                  display: 'Correo',
+                  rules: 'required|min_length[10]'
+              },
+              {
+                name: 'asunto',
+                  display: 'Asunto',
+                  rules: 'required|min_length[10]'
+              },
+              {
+                name: 'mensaje',
+                  display: 'Mensaje',
+                  rules: 'required|min_length[50]'
+              }], function(errores,evento){
+                if (errores.length) {
+                  let mensaje = '';
+
+                  errores.forEach(function(campo, indice, arreglo) {
+                    mensaje += '${campo.message} <br/>';
+                    
+                  });
+                  document.querySelector('#resultadoValidacion').innerHTML = mensaje;
+                } 
+              });
+            
+
+            });
+          
+              </script>
+        
+    </body>
+</html>
